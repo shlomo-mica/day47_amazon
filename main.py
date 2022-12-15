@@ -9,7 +9,7 @@ dt = datetime.datetime
 
 def email_send(price_updated):
     my_email = "shlomo.python@yahoo.com"
-    password = "mfwgsxqutfgwxiin"
+    password = "m??????????n"
     with smtplib.SMTP("smtp.mail.yahoo.com") as connection:
         connection.starttls()
         connection.login(user=my_email, password=password)
@@ -42,10 +42,4 @@ while x.strftime("%H %M") != 17.33:  # once a day searching process...
         break
 
 
-# test1List[Tag] = BeautifulSoup(html_string, 'lxml').select(
-#    'tr td strong:contains("text I am looking for")'
-# print(list(soup.children))
-# price_search = soup.find_all("li", class_="price-current", recursive=True)
-# price_search2 = soup.find_all(name="li", class_="price-current-label")
-# price_search3 = soup.select("li strong")[0].text  #todo my value
-# price_search4 = soup.select("li strong")[3].text
+ 
